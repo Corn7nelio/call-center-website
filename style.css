@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    font-size: 13px;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.logo-img {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: 70px;
+}
+
+.header-complete {
+    display: flex;
+    align-items: end;
+    gap: 150px;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo-complete {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: end;
+    position: relative;
+    bottom: 30px;
+}
+
+.logo-text-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    position: relative;
+    right: 35px;
+
+    .logo-first-item {
+        font-weight: 700;
+        color: #006838;
+    }
+
+    .logo-second-item {
+        font-weight: 400;
+    }
+}
+
+.logo-navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 150px;
+}
+
+.Nav-bar-header {
+    position: relative;
+    bottom: 30px;
+    padding: 15px;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            cursor: pointer;
+            color: #2772a0;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 577px;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.button-rdv {
+    font-size: 12px;
+    color: #fff;
+    background-color: #62b2e3;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    bottom: 30px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #2772a0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+/* La partie header termine ici !!  */
+
+
+.top-banner {
+    background: url(./images/Bannière_SantéPlus.png);
+    background-size: cover;
+    width: 100%;
+    height: 870px;
+
+    .welcome-text p {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        font-family: "Anek Latin";
+    }
+
+    .slogan-text p {
+        color: #006838;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.banner-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 800px;
+    justify-content: flex-end;
+    position: relative;
+    top: 250px;
+}
+
+.social-mediaIcons-support {
+    width: 71px;
+    height: 280px;
+    background-color: #62b2e3;
+    border-radius: 30px 0 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: #fff;
+}
+
+/* La partie banner termine ici !!  */
+
+.our-quality {
+    height: 210px ;
+    width: 1170px ;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0 0 ;
+    position: relative;
+    bottom: 50px;
+    left: 165px;
+
+
+    .base-bar {
+        width: 100%;
+        height: 9px;
+        background-color: #006838;
+        position: relative;
+        top: 205px;
+    }
+
+}
+
+.separation-line {
+    height: 106px;
+    width: 2px;
+    background: rgba(0, 104, 56, 0.10);
+}
+
+.separation-div {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}
+
+.fa-solid {
+    color: #006838;
+    font-size: 40px;
+}
+
+.quality-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+
+    p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        color: #006838;
+    }
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.welcome-paragraph {
+    font-size: 36px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.button-rdv-middle {
+    color: #fff;
+    background-color: #006838;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 250px;
+    margin-top: 120px;
+    margin-left: 650px;
+    text-align: center;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #0cd97a;
+    }
+
+    P{
+        font-size: 30px;
+    }
+}
+
+.green-button {
+    a {
+        color: #fff;
+    }
+}
+
+.midlle-div {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(250, 246, 246, 0.69);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+.title-text {
+    color: #006838;
+    text-align: center;
+    font-family: "Anek Latin";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 35px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe1 {
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 150px 10px 10px 10px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    b {
+        font-size: 20px;
+    }
+}
+.equipe2 {
+    height: 600px;
+    width: 400px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 150px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+    b {
+        font-size: 20px;
+    }
+}
+
+.equipe-complete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+
+    .low-text {
+        font-size: 20px;
+    }
+}
+
+.doc1-img {
+   height: 600px;
+   width: 600px;
+}
+
+.doc2-3-img {
+    height: 300px;
+    width: 400px;
+    border-radius: 150px 10px 0px 0px;
+}
+
+.div-vide {
+    width: 1px;
+    height: 1px;
+}
+
+
+/* La partie information commence ici !! */
+
+.information-section {
+    background-color: #62b2e3;
+    width: 100%;
+    height: 430px;
+    margin-top: 100px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    p{
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+.Localisation-img {
+    margin-top: 100px;
+    width: 90%;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    margin-left: 75px;
+}
+
+.separate {
+    background-color: #D9D9D9;
+    width: 1px;
+    height: 216px;
+}
+
+.list-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    color: #fff;
+}
+
+
+/* La partie footer commence ici !! */
+
+.footer {
+    text-align: center;
+    color:#fff;
+    padding: 30px 0 30px 0;
+    background-color: #62b2e3;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/* *** ICI COMMENCE LA PAGE CONTACT *** */
+
+.contour-formulaire {
+    height: 800px;
+    width: 450px;
+    border: 1px solid rgba(153, 143, 143, 0.94);
+    border-radius: 35px;
+    margin: 50px 0px 50px 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    a {
+        background-color: #006838;
+        color: #FFF;
+        padding: 10px 75px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #0cd97a;
+        }
+    }
+
+
+}
+
+.ajustement {
+    width: 1px;
+    height: 1px;
+}
+
+.envoyer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.logo-and-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0px;
+    justify-items: center;
+
+    p {
+        color: #006838;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        position: relative;
+        bottom: 60px;
+    }
+}
+
+.div-all-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    /* align-items: center; */
+    
+
+    input {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #CCC;
+        background: #FFF;
+    }
+
+    label {
+        color: rgba(110, 110, 110, 0.94);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    textarea {
+        width: 300px;
+        height: 100px;
+        border-radius: 5px;
+        border: 1px solid #CCC;
+        background: #FFF;
+    }
+}
+
+
+@font-face {
+    font-family: inter;
+    src: url(./Assets/fonts/inter/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anek Latin;
+    src: url(./Assets/fonts/static/AnekLatin-Regular.ttf);
+}
+
+/* La partie Responsive */
+
+@media (max-width: 1200px) {
+    .header-complete, .our-quality {
+        width: 95%;
+        gap: 50px;
+    }
+    .banner-items {
+        gap: 200px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-complete, .our-quality {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .logo-img {
+        width: 120px;
+        height: 120px;
+        top: 20px;
+    }
+    .banner-items {
+        flex-direction: column;
+        gap: 40px;
+        top: 100px;
+    }
+    .quality-icons {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-complete, .logo-navBar, .banner-items, .quality-icons, .equipe {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .logo-img {
+        width: 80px;
+        height: 80px;
+        top: 10px;
+    }
+    .top-banner {
+        height: 300px;
+    }
+    .title-text {
+        font-size: 32px;
+        padding: 10px;
+    }
+    .welcome-paragraph {
+        font-size: 18px;
+    }
+    .button-rdv-middle {
+        width: 90%;
+        margin-left: 0;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .our-quality {
+        width: 100%;
+        left: 0;
+    }
+    .information-section {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 20px 0;
+    }
+    .Localisation-img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Le Responsive de la page contact  */
+
+@media (max-width: 600px) {
+    .contour-formulaire {
+        width: 95%;
+        min-width: unset;
+        margin: 20px auto;
+        height: auto;
+        padding: 20px 0;
+    }
+    .contour-formulaire img {
+        width: 120px;
+        height: 120px;
+    }
+    .form-check input,
+    .form-check textarea {
+        width: 90%;
+        min-width: unset;
+        font-size: 14px;
+    }
+    .logo-and-title p {
+        font-size: 22px;
+        bottom: 20px;
+    }
+}
+
